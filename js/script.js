@@ -5,10 +5,6 @@ function tryGuess() {
     var guess = document.getElementById("guess").value;
     var result = "";
 
-    alert(guess);
-    alert(result);
-    alert(attempts);
-
     if (attempts > 0 ) {
         if (guess > number) {
             attempts = attempts - 1;
